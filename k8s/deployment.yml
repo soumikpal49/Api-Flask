@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: karthikamn/myapp:latest
+          image: myapp:flask
           ports:
             - containerPort: 5000  # Adjust based on your app's listening port  
